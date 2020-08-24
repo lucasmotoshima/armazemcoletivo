@@ -1,0 +1,40 @@
+8
+
+dir
+631
+svn+ssh://atlantistest.webtraffic.com.br/wt/svn/maluf/maluf/adm/public/js/jquery/ui
+svn+ssh://atlantistest.webtraffic.com.br/wt/svn/maluf
+
+
+
+2008-07-24T22:06:16.438197Z
+2
+fernando
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+34c38a88-cb59-dd11-8314-001a64706f2e
+
+jquery.ui-traceroute.add4.com.br.js
+file
+
+
+
+
+2008-05-22T17:31:24.390000Z
+7b74f58351439fd1f470d2c0b4bad5dd
+2008-07-24T22:06:16.438197Z
+2
+fernando
+

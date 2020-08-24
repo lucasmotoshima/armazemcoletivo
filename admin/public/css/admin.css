@@ -1,0 +1,189 @@
+
+/* ------------------------------- */
+/* ------------PREVIEW------------ */
+/* ------------------------------- */
+table#dadosdeacesso #preview {
+    margin:10px;
+    overflow:hidden;
+    border-radius:3px;
+	border:1px solid #888888;
+	background-repeat:no-repeat;
+    box-shadow:1px 1px 2px #d1d1d1;
+}
+
+table#dadosdeacesso #preview.provider {
+	width: 500px;
+	height: 260px;
+	background-image:url(../images/provider/default.gif);
+}
+
+table#dadosdeacesso #preview.category {
+	width: 35px;
+	height: 35px;
+	background-image:url(../images/category/default.gif);
+}
+
+#preview.banner {
+    margin: 0 auto;
+    height: 250px;
+    width: 855px;
+    overflow:hidden;
+    border-radius:3px;
+	border:1px solid #888888;
+	background-repeat:no-repeat;
+    box-shadow:1px 1px 2px #d1d1d1;
+	background-image:url(../images/banner/default.gif);
+}
+#preview.provider {
+    margin: 0 auto;
+    height: 260px;
+    width: 500px;
+    overflow:hidden;
+    border-radius:3px;
+	border:1px solid #888888;
+	background-repeat:no-repeat;
+    box-shadow:1px 1px 2px #d1d1d1;
+	background-image:url(../images/provider/default.gif);
+}
+#color_preview{
+	border: 1px solid #cccccc;
+	width: 25px;
+	height: 20px;
+	float: left;
+}
+
+/* ------------------------------- */
+/* -------------REPORTS------------- */
+/* ------------------------------- */
+form#usuarioForm, form#imagemForm, form#solicitacaoForm
+{
+	border-bottom: 1px solid #D4D4D4;
+	padding: 0px 0px 10px 0px;
+}
+
+
+/* ------------------------------- */
+/* ------------RODAPÉ------------- */
+/* ------------------------------- */
+#rodape {
+	width:960px;
+	display:block;
+	height: 50px;
+	margin:0 auto;	
+	color:#FFFFFF;
+	font-size:10px;
+	text-align:center;
+}
+
+
+/* ------------------------------- */
+/* ------------ICONES------------- */
+/* ------------------------------- */
+
+#conteudo #main #box_dir #separator{
+	cursor: pointer;
+	width: 650px;
+	text-align: center;
+	text-transform: uppercase;
+	height: auto;
+	border-bottom: 2px solid #fbb450;
+	margin: 20px 0px 10px 0px;
+	background-color: #F2F2F2;
+	font-weight: bold;
+	padding: 3px;
+}
+
+.icon#mais{
+	border: 0px solid #000;
+	background-image: url(../images/icones/icones.png);
+	background-position: -1px -15px;
+	width: 10px;
+	height: 7px;
+    float: right;
+    margin: 85px 10px 0px 0px;
+    cursor: pointer;
+}
+
+.icon#edit{
+	border: 0px solid #000;
+	background-image: url(../images/icones/icones.png);
+	background-position: -617px -5px;
+	width: 17px;
+	height: 17px;
+    cursor: pointer;
+    float: left;
+}
+.icon#exit{
+	border: 0px solid #000;
+	background-image: url(../images/icones/icones.png);
+	background-position: -655px -70px;
+	width: 17px;
+	height: 17px;
+    cursor: pointer;
+    float: left;
+}
+
+strong.inactivo{
+	color: #BD362F;
+}
+
+strong.activo{
+	color: #5BB75B;
+}
+
+#email.target,
+#qty_limit.target,
+#amount_limit.target,
+
+#range1_ini.target,
+#range1_end.target,
+#range1_price.target,
+#range1.target,
+
+#range2_ini.target,
+#range2_end.target,
+#range2_price.target,
+#range2.target,
+
+#range3_ini.target,
+#range3_end.target,
+#range3_price.target,
+#range3.target,
+
+#range4_ini.target,
+#range4_end.target,
+#range4_price.target,
+#range4.target,
+
+#range5_ini.target,
+#range5_end.target,
+#range5_price.target,
+#range5.target
+{
+  	box-shadow: 0px 0px 10px 0px #ffa6a6;
+}
+
+#product_unit_price,
+#print_unit_price,
+#total_unit,
+#dif{
+	text-align: center;
+	font-weight: bold;
+}
+#_dif_perc{
+}
+
+#total,
+#total_geral{
+	text-align: center;
+	font-weight: bold;
+}
+#product_price, #quantity, #dif_perc, #dif_real{
+	text-align: center;
+	font-weight: bold;
+}
+
+#paginacao{
+	width: 100%;
+	display: table;
+}
